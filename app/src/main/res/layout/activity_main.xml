@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="trans.miaoyongjun.ptf.MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/slowBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="SlowBackground"/>
+
+        <Button
+            android:id="@+id/zoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="zoom"/>
+
+        <Button
+            android:id="@+id/zoomStack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ZoomStack"/>
+
+        <Button
+            android:id="@+id/cube"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cube"/>
+        <Button
+            android:id="@+id/depth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Depth"/>
+    </LinearLayout>
+
+</FrameLayout>
