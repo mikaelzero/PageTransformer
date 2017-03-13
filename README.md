@@ -31,11 +31,9 @@ viewPager.setPageTransformer(true, MagicTransformer.getPageTransformer(Transitio
 ## Demo
 
 ![enter image description here](https://github.com/miaoyongjun/PageTransformer/blob/master/slow.gif?raw=true)
-
 ![enter image description here](https://github.com/miaoyongjun/PageTransformer/blob/master/zoom.gif?raw=true)
 
 ![enter image description here](https://github.com/miaoyongjun/PageTransformer/blob/master/cube.gif?raw=true)
-
 ![enter image description here](https://github.com/miaoyongjun/PageTransformer/blob/master/depth.gif?raw=true)
 
 
