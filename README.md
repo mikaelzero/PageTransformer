@@ -3,7 +3,7 @@
 
 ## Usage
 
-####Add it in your root build.gradle at the end of repositories:
+#### Add it in your root build.gradle at the end of repositories:
 
 ```
 allprojects {
@@ -14,7 +14,7 @@ allprojects {
 	}
 ```
 
-####Add the dependency:
+#### Add the dependency:
 
 ```
 	dependencies {
@@ -22,7 +22,7 @@ allprojects {
 	}
 ```
 
-####java code:
+#### java code:
 
 ```
 viewPager.setPageTransformer(true, MagicTransformer.getPageTransformer(TransitionEffect.SlowBackground));
@@ -93,6 +93,6 @@ add ImageView in your rootView
 
 ```
 
-##Thanks
+## Thanks
 [JazzyViewPager](https://github.com/jfeinstein10/JazzyViewPager)
 [BGABanner-Android](https://github.com/bingoogolapple/BGABanner-Android)
