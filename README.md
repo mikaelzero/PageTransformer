@@ -5,7 +5,7 @@
 
 #### Add it in your root build.gradle at the end of repositories:
 
-```
+```java
 allprojects {
 		repositories {
 			...
@@ -16,7 +16,7 @@ allprojects {
 
 #### Add the dependency:
 
-```
+```java
 	dependencies {
 	        compile 'com.github.miaoyongjun:PageTransformer:1.0'
 	}
@@ -24,7 +24,7 @@ allprojects {
 
 #### java code:
 
-```
+```java
 viewPager.setPageTransformer(true, MagicTransformer.getPageTransformer(TransitionEffect.SlowBackground));
 ```
 
@@ -39,7 +39,7 @@ viewPager.setPageTransformer(true, MagicTransformer.getPageTransformer(Transitio
 
 ## Detail
 
-```
+```java
 public enum TransitionEffect {
     Default,
     //透明度变换
@@ -69,7 +69,7 @@ public enum TransitionEffect {
 
 add ImageView in your rootView
 
-```
+```java
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
